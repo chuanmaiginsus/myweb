@@ -1,4 +1,11 @@
 <html>
   <h1>703311 RAG Demo Site</h1>
-  <h2>We will add a chatbot here soon!</h2>
-</html>
+  <h2>You can talk to our chatbot</h2>
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "a6abd2f9-101a-447c-aedc-6208a8606057",
+        apiHost: "https://chuanmaiginsus-flowise-1.hf.space",
+    })
+</script>
